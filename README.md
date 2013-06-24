@@ -8,5 +8,5 @@ as specified at
 
 You'll need to fill in your CONSUMER_KEY and CONSUMER_SECRET
 
-Will generate a bearer token you can use for application-only authentication
-in your twitter apps, and issue a sample request using the token.
+Generates a bearer token you can use for application-only authentication
+in your twitter apps, and issues a sample request using the token.
