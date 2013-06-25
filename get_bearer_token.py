@@ -42,7 +42,8 @@ CONSUMER_SECRET = b'YOUR_CONSUMER_SECRET'
 # Step 1: Encode consumer key and secret
 #
 
-base64_consumer_key_secret = base64.b64encode(CONSUMER_KEY + b':' + CONSUMER_SECRET)
+base64_consumer_key_secret = base64.b64encode(
+    urllib2.quote(CONSUMER_KEY) + b':' + urllib2.quote(CONSUMER_SECRET))
 
 #
 # Step 2: Obtain a bearer token
